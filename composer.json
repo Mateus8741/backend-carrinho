@@ -1,0 +1,13 @@
+{
+    "name": "backend/mvc",
+    "description": "Aula MVC",
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app",
+            "App\\Controllers\\": "app/controllers",
+            "App\\Models\\": "app/models",
+            "App\\Config\\": "app/config"
+        }
+    }
+}
